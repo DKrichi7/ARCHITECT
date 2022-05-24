@@ -1,0 +1,421 @@
+/* ==================== SET UP START ==================== */
+@font-face {
+    font-family: 'Open Sans';
+    src: url(Fonts/OpenSans-Regular.ttf);
+}
+a{
+    font-family: 'Open Sans';
+}
+h1,h2,h3,h4{
+    font-family: 'Open Sans';
+}
+p{
+    font-family: 'Open Sans';
+}
+:root{
+    --major-color: black;
+    --green-color: #3c763d;
+    --greenback-color: #dff0d8;
+    --blue-color: #31708f;
+    --blueback-color: #d9edf7;
+    --red-color: #a94442;
+    --redback-color: #f2dede;
+    --purple-color: #90F;
+    --border-color: #D6D6D6;
+    --white-color: white;
+    --icon-color: #4bbabe;
+
+}
+body{
+    background-image: url(Images/pixel_weave.png);
+}
+html {
+    scroll-behavior: smooth !important;
+}
+/* ==================== SET UP END ==================== */
+
+/* ==================== MEDIA (540) START ==================== */
+@media only screen and (max-width: 540px) {
+    /*-- NAV START --*/
+    .navbar{
+        border: none !important;
+        background-color: transparent !important;
+        margin-top: -45px !important;
+        transition: all ease-in-out 0.4s !important;
+    }
+    .navbar-toggle{
+        background-color: var(--major-color) !important;
+        transition: all ease-in-out 0.4s !important;
+    }
+    .navbar-header .icon-bar{
+        background-color: white !important;
+        transition: all ease-in-out 0.4s !important;
+    }
+    /*-- NAV END --*/
+
+    /*-- CAROUSEL START --*/
+    .carouseltxt{
+        top: 0% !important;
+        left: 10% !important;
+        width: 380px !important;
+        transition: all ease-in-out 0.4s !important;
+    }
+    /*-- CAROUSEL END --*/
+
+    /*-- SELECT START --*/
+    .selecticonbg{
+        margin-left: 173px !important;
+        transition: all ease-in-out 0.4s !important;
+    }
+    .selecticon i{
+        left: 42% !important;
+        transition: all ease-in-out 0.4s !important;
+    }
+    #servicehr{
+        max-width: 190px !important;
+        margin-left: 130px !important;
+        transition: all ease-in-out 0.4s !important;
+    }
+    /*-- SELECT END --*/
+
+    /*-- HOTELS START --*/
+    .hotels{
+        padding-top: 40px !important;
+        transition: all ease-in-out 0.4s !important;
+    }
+    .hotelss i{
+        top: 86% !important;
+        transition: all ease-in-out 0.4s !important;
+    }
+    #hotelhr{
+        max-width: 190px !important;
+        margin-left: 130px !important;
+        transition: all ease-in-out 0.4s !important;
+    }
+    /*-- HOTELS END --*/
+
+    /*-- WHO START --*/
+    .whohr{
+        max-width: 190px !important;
+        margin-left: 130px !important;
+        transition: all ease-in-out 0.4s !important;
+    }
+    /*-- WHO END --*/
+  }
+/* ==================== MEDIA (540) END ==================== */
+
+/* ==================== HEADER START ==================== */
+#headerback{
+    border-bottom: solid 1px var(--border-color);
+    transition: all ease-in-out 0.4s;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-image: url(Images/pixel_weave.png);
+}
+#logo{
+    padding-top: 15px;
+    transition: all ease-in-out 0.4s;
+}
+#logo a{
+    color: var(--major-color) !important;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all ease-in-out 0.4s;
+}
+#logo a:hover{
+    text-decoration: none;
+    transition: all ease-in-out 0.4s;
+}
+/*-- NAV START --*/
+#navi{
+    padding-top: 5px;
+    transition: all ease-in-out 0.4s;
+}
+.navbar{
+    border: none !important;
+    background-color: transparent !important;
+    transition: all ease-in-out 0.4s;
+}
+.navbar ul li a{
+    color: var(--major-color) !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: all ease-in-out 0.4s;
+}
+/*-- NAV END --*/
+/* ==================== HEADER END ==================== */
+
+/* ==================== CAROUSEL START ==================== */
+#containeri{
+    padding-top: 90px;
+    transition: all ease-in-out 0.4s;
+}
+.carouseltxt{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0,5;
+    top: 65%;
+    left: 22%;
+    text-align: center;
+    padding: 15px;
+    transition: all ease-in-out 0.4s;
+}
+.carouseltxt span{
+    font-size: 22px;
+    color: var(--white-color);
+    transition: all ease-in-out 0.4s;
+}
+/* ==================== CAROUSEL END ==================== */
+
+/* ==================== SELECT START ==================== */
+#selector{
+    padding-top: 120px;
+    transition: all ease-in-out 0.4s;
+}
+.selecticon{
+    text-align: center;
+    padding-bottom: 60px;
+    transition: all ease-in-out 0.4s;
+}
+.selecticonbg{
+    background-color: var(--icon-color);
+    transform: rotateZ(230deg);
+    width: 100px;
+    height: 100px;
+    margin-left: 125px;
+    transition: all ease-in-out 0.4s;
+}
+.selecticon i{
+    font-size: 70px !important;
+    color: var(--white-color);
+    position: absolute;
+    top: 0;
+    left: 40%;
+    transition: all ease-in-out 0.4s;
+}
+.selecticon h1{
+    padding-top: 20px;
+    font-size: 30px;
+    color: var(--major-color);
+    transition: all ease-in-out 0.4s;
+}
+.selecticon p{
+    font-size: 14px;
+    color: var(--major-color);
+    line-height: 30px;
+    transition: all ease-in-out 0.4s;
+}
+#servicehr{
+    background-color: var(--icon-color);
+    height: 5px;
+    max-width: 400px;
+    transition: all ease-in-out 0.4s;
+    margin-left: 360px;
+}
+/* ==================== SELECT END ==================== */
+
+/* ==================== HOTEL START ==================== */
+#hotel{
+    text-align: center;
+    padding-top: 60px;
+    transition: all ease-in-out 0.4s;
+}
+.hotelf h1{
+    font-size: 22px;
+    color: var(--blue-color);
+    font-weight: bold;
+    transition: all ease-in-out 0.4s;
+}
+.hotelf p{
+    line-height: 30px;
+    color: var(--blue-color);
+    font-size: 14px;
+    transition: all ease-in-out 0.4s;
+}
+.hotelf{
+    padding: 1px;
+    background-color: var(--blueback-color);
+    transition: all ease-in-out 0.4s;
+}
+.hotels{
+    text-align: center;
+    transition: all ease-in-out 0.4s;
+}
+.hotels h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--major-color);
+    transition: all ease-in-out 0.4s;
+    padding-bottom: 5px;
+}
+.hotels p{
+    font-size: 14px;
+    color: var(--major-color);
+    line-height: 30px;
+    padding-bottom: 20px;
+    transition: all ease-in-out 0.4s;
+}
+.hotels img{
+    float: left;
+    transition: all ease-in-out 0.4s;
+}
+.hotelss{
+    padding-top: 25px;
+    transition: all ease-in-out 0.4s;
+}
+.hotelss a{
+    text-decoration: none;
+    color: var(--purple-color);
+    font-size: 20px;
+    font-weight: bold;
+    transition: all ease-in-out 0.4s;
+}
+.hotelss i{
+    color: var(--purple-color);
+    font-size: 30px;
+    font-weight: bold;
+    transition: all ease-in-out 0.4s;
+    position: absolute;
+    top: 75%;
+}
+#hotelhr{
+    background-color: var(--icon-color);
+    height: 5px;
+    max-width: 400px;
+    transition: all ease-in-out 0.4s;
+    margin-left: 360px;
+    margin-top: 60px;
+}
+/* ==================== HOTEL END ==================== */
+
+/* ==================== WHO START ==================== */
+#who{
+    padding-top: 80px;
+    transition: all ease-in-out 0.4s;
+}
+.whof{
+    text-align: center;
+    transition: all ease-in-out 0.4s;
+    align-items: center;
+}
+.whof img{
+    border-radius: 50%;
+    width: 50%;
+    transition: all ease-in-out 0.4s;
+}
+.whof h1{
+    font-size: 24px;
+    color: var(--major-color);
+    font-weight: bold;
+    transition: all ease-in-out 0.4s;
+}
+.whof p{
+    font-size: 14px;
+    color: var(--major-color);
+    line-height: 30px;
+    transition: all ease-in-out 0.4s;
+}
+.whos{
+    background-color: var(--greenback-color);
+    text-align: center;
+    padding: 5px;
+    transition: all ease-in-out 0.4s;
+}
+.whos h1{
+    font-size: 24px;
+    color: var(--green-color);
+    font-weight: bold;
+    transition: all ease-in-out 0.4s;
+}
+.whos p{
+    font-size: 14px;
+    color: var(--green-color);
+    line-height: 30px;
+    transition: all ease-in-out 0.4s;
+}
+.whohr{
+    background-color: var(--icon-color);
+    height: 5px;
+    max-width: 400px;
+    margin-left: 360px;
+    transition: all ease-in-out 0.4s;
+    margin-top: 60px;
+}
+/* ==================== WHO END ==================== */
+
+/* ==================== LOCATION START ==================== */
+#locationi{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    transition: all ease-in-out 0.4s;
+}
+.loc{
+    padding: 20px;
+    background-color: var(--redback-color);
+    text-align: center;
+    transition: all ease-in-out 0.4s;
+}
+.loc h1{
+    font-size: 22px;
+    color: var(--red-color);
+    transition: all ease-in-out 0.4s;
+    padding-bottom: 10px;
+}
+.loc p{
+    font-size: 14px;
+    color: var(--red-color);
+    transition: all ease-in-out 0.4s;
+}
+.loc p b{
+    font-size: 14px;
+    color: var(--red-color);
+    transition: all ease-in-out 0.4s;
+    font-weight: bold;
+}
+.loc span{
+    font-size: 14px;
+    transition: all ease-in-out 0.4s;
+    color: var(--red-color);
+}
+/*-- FORM START --*/
+.form-control{
+    border: 1px solid #ccc;
+    transition: all ease-in-out 0.4s;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0);
+}
+.locform{
+    padding-top: 40px;
+    transition: all ease-in-out 0.4s;
+}
+.locfortwo{
+    padding-top: 20px;
+    transition: all ease-in-out 0.4s;
+}
+#message{
+    margin-bottom: 40px;
+    transition: all ease-in-out 0.4s;
+}
+/*-- FORM END --*/
+
+/* ==================== LOCATION END ==================== */
+
+/* ==================== FOOTER START ==================== */
+#footer{
+    border-top: 1px solid #d6d6d6;
+    transition: all ease-in-out 0.4s;
+}
+#footer span{
+    color: var(--major-color);
+    font-size: 14px;
+    float: right;
+    padding: 20px;
+    transition: all ease-in-out 0.4s;
+}
+/* ==================== FOOTER END ==================== */
